@@ -3,8 +3,24 @@ layout: blocks
 title: Homepage
 date: 2017-11-22 23:00:00 +0000
 page_sections:
+- template: navigation-header-w-button
+  block: header-2
+  navigation:
+  - link_text: Product
+  - link_text: Blog
+  - link_text: Resources
+  - link_text: Company
+  - link_text: Console Login
+  - {}
+  logo: "/uploads/2018/08/21/Evendor.io.png"
+  cta:
+    button_text: Get Started
 - template: navigation-header
   block: header-1
+  navigation:
+  - link_text: Product
+  - {}
+  logo: "/uploads/2018/08/21/Evendor.io.png"
 - template: hero-banner-w-image
   block: hero-2
   headline: uBuild <br><strong>design blocks</strong>
