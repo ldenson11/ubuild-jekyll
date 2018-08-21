@@ -15,25 +15,19 @@ page_sections:
   logo: "/uploads/2018/08/21/Evendor.io.png"
   cta:
     button_text: Get Started
-- template: navigation-header
-  block: header-1
-  navigation:
-  - link_text: Product
-  - {}
-  logo: "/uploads/2018/08/21/Evendor.io.png"
 - template: hero-banner-w-image
   block: hero-2
-  headline: uBuild <br><strong>design blocks</strong>
-  content: The tool that allows you to build beautiful sites<br>all inside Forestry's
-    content manager.
+  headline: "<strong>Fully Managed, Real-time Data Stack with Apache Kafka At Its
+    Core</strong>"
+  content: Go ahead, stream all the things
   cta:
     enabled: true
-    url: https://github.com/forestryio/ubuild-jekyll
-    button_text: 'See on GitHub '
+    url: http://console.eventador.io/register
+    button_text: Get Started Now
   image:
     image: "/uploads/2018/06/21/product-shot-1.png"
     alt_text: Product Shot
-  background_image: "/uploads/2018/06/21/hero-2-bg.png"
+  background_image: "/uploads/2018/06/21/drone-photo.jpeg"
 - template: content-feature
   block: feature-1
   media_alignment: Left
