@@ -1,5 +1,24 @@
 ---
 main:
+- weight: 6
+  parent: item_q-dpWjG
+  title: Careers
+- weight: 6
+  parent: item_q-dpWjG
+  title: About
+- weight: 6
+  parent: item_q-dpWjG
+  title: Contact Us
+- weight: 5
+  title: Company
+- weight: 4
+  title: Blog
+- weight: 3
+  title: Resources
+- weight: 2
+  title: Get Started
+- weight: 1
+  title: Product
 - identifier: home
   url: "/"
   weight: 1
