@@ -1,19 +1,21 @@
 ---
 label: page-builder
-hide_body: true
+hide_body: false
 is_partial: false
 fields:
 - type: text
   label: Title
   name: title
+  default: Color Picker
 - type: text
   name: layout
   label: Layout
-  hidden: true
+  hidden: false
   default: blocks
 - type: datetime
   name: date
   label: Date
+  default: 2018-08-21 05:00:00 +0000
 - type: blocks
   name: page_sections
   label: Page Sections
@@ -32,6 +34,38 @@ fields:
   - signup-bar
   - simple-footer
   - 4-column-footer
+- type: textarea
+  default: 58595b
+- type: color
+  config:
+    color_format: Hex
+    required: false
+  label: Color Picker
+  name: color_picker
+  default: "#0DB14B"
+  description: Green
+- type: color
+  name: color_picker
+  config:
+    color_format: Hex
+  label: Color Picker
+  default: "#58595B"
+  description: Gray
+- type: color
+  name: background_color_black_white
+  config:
+    color_format: Hex
+  label: Background Color
+  description: Black
+  default: "#000000"
+- type: color
+  name: background_color
+  config:
+    color_format: Hex
+    required: false
+  label: Background color
+  description: choose a background color
+  default: "#FFFFFF"
 pages:
 - index.md
 - index.md
