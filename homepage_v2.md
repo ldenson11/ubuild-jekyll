@@ -11,6 +11,11 @@ page_sections:
     link_text: Product
   - link_text: Pricing
   - link_text: Blog
+  - link_text: About Eventador Labs
+  - link: https://console.eventador.io/
+    link_text: Console Login
+  cta:
+    button_text: Get Started
 - template: 2-column-text
   block: two-column-1
 published: false
