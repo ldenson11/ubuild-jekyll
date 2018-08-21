@@ -1,27 +1,28 @@
 ---
 main:
+- weight: 4
+  title: Resources
+- weight: 2
+  title: Product
 - url: https://console.eventador.io/
-  weight: 11
+  weight: 7
   title: Console Login
-- weight: 11
+- weight: 3
   parent: item_c7jN6HV
   title: Careers
-- weight: 11
+- weight: 2
   parent: item_c7jN6HV
   title: About
-- weight: 11
+- weight: 1
   parent: item_c7jN6HV
   title: Contact Us
-- weight: 10
-  title: Company
-- weight: 9
-  title: Blog
-- weight: 8
-  title: Resources
-- weight: 7
-  title: Get Started
 - weight: 6
-  title: Product
+  identifier: item_c7jN6HV
+  title: Company
+- weight: 5
+  title: Blog
+- weight: 3
+  title: Get Started
 - identifier: home
   url: "/"
   weight: 1
