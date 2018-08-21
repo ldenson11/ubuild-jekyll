@@ -10,6 +10,7 @@ page_sections:
   - link: Product
     link_text: Product
   - link_text: Pricing
+  - link_text: Blog
 - template: 2-column-text
   block: two-column-1
 published: false
