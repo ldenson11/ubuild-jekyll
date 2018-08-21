@@ -4,6 +4,15 @@ auto_deploy: true
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: ''
+  label: Testing
+  create: all
+  match: "**/*"
+  templates:
+  - detail-content
+  - 4-column-footer
+  - hero-banner-w-image
 - type: jekyll-posts
   label: Posts
   create: all
