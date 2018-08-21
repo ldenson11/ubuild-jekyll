@@ -24,7 +24,7 @@ page_sections:
     url: http://console.eventador.io/register
     button_text: Get Started Now
   image:
-    image: "/uploads/2018/06/21/product-shot-1.png"
+    image: ''
     alt_text: Product Shot
   background_image: "/uploads/2018/06/21/drone-photo.jpeg"
 - template: content-feature
@@ -80,4 +80,3 @@ background_color: ''
 published: false
 
 ---
-Get Started Now
