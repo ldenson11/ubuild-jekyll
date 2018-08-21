@@ -11,7 +11,6 @@ page_sections:
   - link_text: Resources
   - link_text: Company
   - link_text: Console Login
-  - {}
   logo: "/uploads/2018/08/21/Evendor.io.png"
   cta:
     button_text: Get Started
@@ -74,7 +73,11 @@ page_sections:
   content: Hello world! ❤︎
 - template: 1-column-text
   block: one-column-1
+undefined: ''
+color_picker: ''
+background_color_black_white: ''
+background_color: ''
 published: false
 
 ---
-foo bar
+Get Started Now
