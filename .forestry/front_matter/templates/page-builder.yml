@@ -33,5 +33,7 @@ fields:
   - simple-footer
   - 4-column-footer
 pages:
+- index.md
+- homepage_v2.md
 - homepage_v2.md
 - index.md
